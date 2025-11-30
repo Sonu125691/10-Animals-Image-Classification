@@ -9,10 +9,17 @@ The project uses **Transfer Learning with MobileNetV2** and has been implemented
 ---
 
 ## 📌 Preprocessing
-- Removed unreadable/corrupted image files from dataset
+- Removed unreadable/corrupted images from dataset
 - Resized all images to **224 × 224 × 3**
-- Normalized pixel values for CNN input
+- Normalized pixel values using `Rescaling(1./255)`
 - Batch size used: **32**
+
+### Data Augmentation
+- `RandomFlip("horizontal")`
+- `RandomRotation(0.04)`
+- `RandomZoom((-0.1, 0.1))`
+
+These augmentations help the model generalize well on real-world animal images.
 
 ---
 
