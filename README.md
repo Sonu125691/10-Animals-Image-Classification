@@ -15,11 +15,10 @@ The project uses **Transfer Learning with MobileNetV2** and has been implemented
 - Batch size used: **32**
 
 ## 📌 Data Augmentation
+To increase dataset variability and prevent overfitting:
 - `RandomFlip("horizontal")`
 - `RandomRotation(0.04)`
 - `RandomZoom((-0.1, 0.1))`
-
-These augmentations help the model generalize well on real-world animal images.
 
 ---
 
