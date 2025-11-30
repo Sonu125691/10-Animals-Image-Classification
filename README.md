@@ -23,8 +23,7 @@ To increase dataset variability and prevent overfitting:
 ---
 
 ## 🤖 Model Architecture
-**MobileNetV2** used
-A **Convolutional Neural Network (CNN)** was trained
+A **CNN model built on top of MobileNetV2** was used for 10-class animal image classification.
 
 Total parameters: 2,423,754
 
