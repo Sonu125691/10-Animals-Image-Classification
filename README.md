@@ -14,7 +14,7 @@ The project uses **Transfer Learning with MobileNetV2** and has been implemented
 - Normalized pixel values using `Rescaling(1./255)`
 - Batch size used: **32**
 
-### Data Augmentation
+## 📌 Data Augmentation
 - `RandomFlip("horizontal")`
 - `RandomRotation(0.04)`
 - `RandomZoom((-0.1, 0.1))`
