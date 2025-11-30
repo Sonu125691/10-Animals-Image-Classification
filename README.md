@@ -40,10 +40,10 @@ This ensures that the final saved model is the **best-performing version**, not 
 ---
 
 ## 📈 Model Performance
-- **Train Accuracy:** 97.56%, **Train Loss:** 0.0784 
-- **Test Accuracy:** 95.87%, **Test Loss:** 0.1484
-
-The model generalizes well and performs strongly on unseen test images.
+| Dataset | Accuracy | Loss |
+|---------|----------|------|
+| Training | **97.56%** | 0.0784 |
+| Testing | **95.87%** | 0.1484 |
 
 ---
 
