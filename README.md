@@ -22,6 +22,24 @@ To increase dataset variability and prevent overfitting:
 
 ---
 
+## 🤖 Model Architecture
+**MobileNetV2** used
+A **Convolutional Neural Network (CNN)** was trained
+
+Total parameters: 2,423,754
+
+Trainable parameters: 165,514
+
+Non-trainable parameters: 2,258,240
+
+Model was trained with:
+- **EarlyStopping**
+- `restore_best_weights = True`
+
+This ensures that the final saved model is the **best-performing version**, not the last epoch.
+
+---
+
 ## 📈 Model Performance
 - **Train Accuracy:** 97.56%, **Train Loss:** 0.0784 
 - **Test Accuracy:** 95.87%, **Test Loss:** 0.1484
