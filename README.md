@@ -46,3 +46,18 @@ This ensures that the final saved model is the **best-performing version**, not 
 The model generalizes well and performs strongly on unseen test images.
 
 ---
+
+## 🤖 Model Details
+- Architecture: **Convolutional Neural Network (CNN)**
+- Framework: **TensorFlow**
+
+---
+
+## ▶️ Run the Project on Your Computer
+**To run this project locally, use the following commands in your terminal:**
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
+**These commands will install the required libraries and open the app in your browser (running locally on your computer).**
