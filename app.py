@@ -2,7 +2,6 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 import streamlit as st
-import base64
 
 
 @st.cache_resource
